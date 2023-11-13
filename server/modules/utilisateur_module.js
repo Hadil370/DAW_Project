@@ -44,8 +44,5 @@ const UtilisateurSchema = new Schema({
   const Utilisateur = mongoose.model('Utilisateur', utilisateurSchema);
 
     
-      module.exports = {
-      Utilisateur,
-     
-     
-    };
+      module.exports =Utilisateur;
+    
