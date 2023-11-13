@@ -10,10 +10,7 @@ const questionnaireSchema = new mongoose.Schema({
     dateDuQuestionnaire: {
       type: Date,
       required: true,
-    },
-   
+    },   
   });
-  
-  const Questionnaire = mongoose.model('Questionnaire', questionnaireSchema);
-  
+   const Questionnaire = mongoose.model('Questionnaire', questionnaireSchema); 
   module.exports = Questionnaire;
