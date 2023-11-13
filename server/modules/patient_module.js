@@ -33,7 +33,6 @@ const patientSchema = new mongoose.Schema({
       type: Number,
       required: true,
     }
-   
   });
    const Patient = mongoose.model('Patient', patientSchema);
 module.exports =Patient;
