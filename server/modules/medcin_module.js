@@ -12,6 +12,7 @@ const medecinSchema = new mongoose.Schema({
       type: Number,
       required: true,
     },
+    
     ID_Utilisateur: { type: mongoose.Schema.Types.ObjectId, ref: 'Utilisateur' },
   });
    const Medecin = mongoose.model('Medecin', medecinSchema);
