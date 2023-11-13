@@ -14,8 +14,6 @@ const Schema = mongoose.Schema
    
     ID_Utilisateur: { type: mongoose.Schema.Types.ObjectId, ref: 'Utilisateur' },
   });
-  
-  
 
   const Admin = mongoose.model('Admin', adminSchema);
   module.exports =Admin;
